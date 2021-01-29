@@ -185,7 +185,7 @@ public class FirstPdf {
         }
     }
     
-    
+    /**methodes test junit pmd git*/
     public static boolean trueMethod() {
     	return true;
     }
@@ -205,6 +205,10 @@ public class FirstPdf {
     System.out.println("cpd")	;
     }
     private static void a2()
+    {
+    System.out.println("cpd")	;
+    }
+    private static void a3()
     {
     System.out.println("cpd")	;
     }
