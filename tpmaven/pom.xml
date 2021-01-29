@@ -57,7 +57,7 @@
             <version>3.0.0</version>
         </plugin>
         <!-- Couverture des tests -->
-           <!--  <plugin>
+            <!--  <plugin>
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>cobertura-maven-plugin</artifactId>
             <version>2.7</version>
@@ -81,15 +81,16 @@
                 <version>3.14.0</version>
             </plugin>
            <!-- activité du projet --> 
-        <!--   <plugin>
+          <!-- <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-changelog-plugin</artifactId> 
             </plugin> -->
  </plugins>
 </reporting>
- <!--  <scm>
-        <connection>scm:svn:svn://127.0.0.1/repository1/monappli</connection>
-        <url>http://127.0.0.1/svn/monappli-web</url>
+ <!--activité du projet-->
+  <!--  <scm>
+        <connection>scm:svn:svn://https://github.com/marioparola</connection>
+        <url>https://github.com/marioparola/idom.git</url>
     </scm>-->
 
   <build>
