@@ -212,4 +212,8 @@ public class FirstPdf {
     {
     System.out.println("cpd")	;
     }
+    private static void a4()
+    {
+    System.out.println("ceci est pour tester les branches")	;
+    }
 }
