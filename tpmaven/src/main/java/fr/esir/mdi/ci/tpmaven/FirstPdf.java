@@ -196,24 +196,6 @@ public class FirstPdf {
     	System.out.println("Ceci est une autre méthode pour tester PMD");
     	return c;
     }
-    private static void a()
-    {
-    System.out.println("cpd")	;
-    }
-    private static void a1()
-    {
-    System.out.println("cpd")	;
-    }
-    private static void a2()
-    {
-    System.out.println("cpd")	;
-    }
-    private static void a3()
-    {
-    System.out.println("cpd")	;
-    }
-    private static void a4()
-    {
-    System.out.println("ceci est pour tester les branches")	;
-    }
+  
+    
 }
