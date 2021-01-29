@@ -196,6 +196,9 @@ public class FirstPdf {
     	System.out.println("Ceci est une autre méthode pour tester PMD");
     	return c;
     }
-  
+    private static void a3()
+    {
+    System.out.println("Je suis différent !!!")	;
+    }
     
 }
