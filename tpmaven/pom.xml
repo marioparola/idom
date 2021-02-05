@@ -81,17 +81,20 @@
                 <version>3.14.0</version>
             </plugin>
            <!-- activité du projet --> 
-          <!-- <plugin>
+           <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-changelog-plugin</artifactId> 
-            </plugin> -->
+                <artifactId>maven-changelog-plugin</artifactId>
+              
+            </plugin> 
  </plugins>
 </reporting>
  <!--activité du projet-->
-  <!--  <scm>
-        <connection>scm:svn:svn://https://github.com/marioparola</connection>
-        <url>https://github.com/marioparola/idom.git</url>
-    </scm>-->
+
+    <scm>
+    	
+        <connection>scm:git:https://github.com/marioparola/idom.git</connection>
+        <url>https://github.com/marioparola/idom</url>
+    </scm>
 
   <build>
         
