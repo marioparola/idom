@@ -89,11 +89,11 @@
  </plugins>
 </reporting>
  <!--activité du projet-->
-
+ <!-- Attention doit avoir la commande git installée pour pouvoir fonctioner (fonctionne donc sous linux)-->
     <scm>
-    	
+    	<!--  
         <connection>scm:git:https://github.com/marioparola/idom.git</connection>
-        <url>https://github.com/marioparola/idom</url>
+        <url>https://github.com/marioparola/idom</url>-->
     </scm>
 
   <build>
