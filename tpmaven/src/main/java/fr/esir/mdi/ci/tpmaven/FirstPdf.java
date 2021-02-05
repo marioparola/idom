@@ -21,6 +21,8 @@ import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.pdf.PdfWriter;
 
 /** TPmaven Mario Parola */
+/** Ceci est la documentation du projet */
+/** La classe first pdf nous permet de générer un document pdf */
 public class FirstPdf {
     private static String FILE = "FirstPdf.pdf";
     private static Font catFont = new Font(Font.FontFamily.TIMES_ROMAN, 18,
@@ -56,6 +58,7 @@ public class FirstPdf {
     // iText allows to add metadata to the PDF which can be viewed in your Adobe
     // Reader
     // under File -> Properties
+    /** la méthode addMetaData nous permet d'ajouter différents attribus standards au pdf (titre, sujet...)*/
     static void addMetaData(Document document) {
         document.addTitle("My first PDF");
         document.addSubject("Using iText");
@@ -185,7 +188,7 @@ public class FirstPdf {
         }
     }
     
-    /**methodes test junit pmd git*/
+    /**les methodes suivantes sont ajoutées pour le test junit ou la détaction par pmd git*/
     public static boolean trueMethod() {
     	return true;
     }
@@ -195,6 +198,7 @@ public class FirstPdf {
     private static int e(int a, int b, int c) {
     	System.out.println("Ceci est une autre méthode pour tester PMD");
     	return c;
+    	
     }
     private static void a()
     {
